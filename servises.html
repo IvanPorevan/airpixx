@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&family=PT+Mono&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>AIRPIX</title>
+</head>
+
+<body>
+  <ul id="slide-out" class="sidenav">
+    <li><a href="index.html" class="sidenav-close">Главная</a></li>
+    <li><a href="about.html" class="sidenav-close">О нас</a></li>
+    <li><a href="servises.html" class="sidenav-close">Услуги</a></li>
+    <li><a href="#" class="sidenav-close"><img src="" alt=""></a></li>
+    <li><a href="#" class="sidenav-close"><img src="" alt=""></a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a href="#!" class="sidenav-close">Close</a></li>
+  </ul>
+
+ <!-- Модальное окно -->
+ <div id="modal1" class="modal">
+  <div class="modal-content">
+    <h5>Услуга</h5>
+    <input type="text" placeholder="видеосъемка">
+  </div>
+  <div class="modal-content">
+    <h5>Дата и время</h5>
+    <input type="text" class="datepicker" id="datepicker">
+    <input type="text" class="timepicker" id="timepicker">
+</div>
+  <div class="modal-content">
+    <h5>Имя</h5>
+    <input type="text" placeholder="Иван">
+  </div>
+  <div class="modal-content">
+    <h5>Номер</h5>
+    <input type="text" placeholder="+7(999)999-99-99">
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Заказать</a>
+  </div>
+</div>
+
+
+  <header id="header">
+    <div class="container">
+      <div class="header__nav">
+        <a href="#"><img src="image/logo.svg" alt="logo" class="header__nav-img"></a>
+        <div class="header__nav-grid">
+          <a href="index.html" class="header__nav-grid-a">Главная</a>
+          <a href="about.html" class="header__nav-grid-a">О нас</a>
+          <a href="servises.html" class="header__nav-grid-a">Услуги</a>
+        </div>
+        <div class="header__nav-icons">
+          <a href="#"><img src="image/tg.svg" alt="" class="header__nav-grid-2"></a>
+          <a href="#"><img src="image/mail.svg" alt="" class="header__nav-grid-2"></a>
+        </div>
+        <button class="header__nav-button">
+          <a href="#modal1" class="modal-trigger">
+            <h3 class="header__nav-button-h">Заказать</h3>
+          </a>
+        </button>
+        <a class="header__nav-burger sidenav-trigger" data-target="slide-out">
+          <div class="header__nav-burger-line"></div>
+          <div class="header__nav-burger-line"></div>
+          <div class="header__nav-burger-line-min"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="prew" id="prew">
+    <div class="pew1">
+      <div class="pew__text">
+        <h1 class="pew__text-h1">Профессиональные услуги аэрофотосъемки</h1>
+        <h3 class="pew__text-h3">Высококачественная профессиональная аэрофотосъемка для любого случая. Мы предлагаем
+          широкий спектр услуг в соответствии с вашими потребностями.</h3>
+      </div>
+  </section>
+
+  <section class="hist">
+    <div class="histoty">
+      <h2 class="hist-h">Наши услуги</h2>
+      <p class="hist-p">Мы предлагаем услуги аэрофотосъёмки и видеосъёмки, чтобы помочь вам представить вашу историю с
+        уникальной перспективы. Если вы агент по недвижимости и хотите продемонстрировать объект
+        недвижимости, строительная компания, которая следит за ходом реализации проекта, или организатор
+        мероприятий, стремящийся запечатлеть волшебство особого случая — у нас есть опыт и
+        оборудование, чтобы достичь потрясающих результатов.<br>Ознакомьтесь с нашими сервисами, чтобы узнать, как мы
+        можем помочь вам улучшить качество визуального контента.</p>
+    </div>
+  </section>
+
+  <section class="imgff" id="photo">
+    <div class="container8">
+      <div class="photo__grid">
+        <div class="photo__grid-item">
+          <img src="image/kv.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Недвижимость</h3>
+          <p class="photo__grid-item-p">Демонстрируйте объекты с потрясающими видами с воздуха, отражающими красоту
+            окружающей местности.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/stroit.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Строительство</h3>
+          <p class="photo__grid-item-p">Отслеживайте ход работ и контролируйте проекты с помощью детальной аэрофото- и
+            видеосъемки.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/ivent.svg" alt="фото">
+          <h3 class="photo__grid-item-h">События</h3>
+          <p class="photo__grid-item-p">Запечатлейте магию мероприятий с профессиональной воздушной фотосъемкой и
+            видеосъемкой.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/dostopr.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Достопримечательности</h3>
+          <p class="photo__grid-item-p">Запечатлейте знаковые достопримечательности и захватывающие пейзажи с воздушной
+            фото- и видеосъемкой.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/sport.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Спорт и отдых</h3>
+          <p class="photo__grid-item-p">Улучшите впечатления от спорта и отдыха с помощью динамичной воздушной съемки,
+            захватывающей действия с высоты.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/travel.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Путешествия и туризм</h3>
+          <p class="photo__grid-item-p">Приглашайте аудиторию исследовать новые места через захватывающую аэрофотосъемку
+            и видеосъемку.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/prom.png" alt="фото">
+          <h3 class="photo__grid-item-h">Промышеленность</h3>
+          <p class="photo__grid-item-p">Покажите масштаб и сложность промышленных объектов с помощью детализированной
+            аэрофотосъемки, предоставляющей ценные данные.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/zagorod.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Загородный</h3>
+          <p class="photo__grid-item-p">Подчеркните природную красоту и спокойствие сельских районов посредством
+            привлекательной аэрофотосъемки.
+          </p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/river.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Прибрежный</h3>
+          <p class="photo__grid-item-p">Подчеркните привлекательность прибрежных объектов и направлений с захватывающей
+            аэрофотосъемкой.</p>
+        </div>
+        <div class="photo__grid-item">
+          <img src="image/gorod.svg" alt="фото">
+          <h3 class="photo__grid-item-h">Городское планирование</h3>
+          <p class="photo__grid-item-p">Визуализируйте планировку и дизайн городских территорий с помощью
+            детализированной воздушной съемки.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galer1y">
+    <div>
+      <section class="hist">
+        <div class="histoty">
+          <h2 class="hist-h">Галерея</h2>
+        </div>
+      </section>
+      <section>
+        <div class="carousel">
+          <div class="carousel-container">
+            <a class="carousel-item" href="#one!">
+              <img src="image/g1.svg" alt="">
+            </a>
+            <a class="carousel-item" href="#two!">
+              <img src="image/gal4.jpg" alt="">
+            </a>
+            <a class="carousel-item" href="#three!">
+              <img src="image/gal4.webp" alt="">
+            </a>
+            <a class="carousel-item" href="#four!">
+              <img src="image/gal3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="hist">
+    <div class="histoty">
+      <h2 class="hist-h">Стоимость услуг</h2>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="container9">
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Аэрофотосъемка</div>
+                <div class="collapsible-content">
+                    <div class="plan">
+                        <h5 class="plan-title">Базовый</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price" >₽10.000</p>
+                        <ul>
+                            <li>✓ До 1 часа съемки</li>
+                            <li>✓ 20 отредактированных фотографий</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Стандарт</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽18.000</p>
+                        <ul>
+                            <li>✓ До 2 часов съемки</li>
+                            <li>✓ Плюс 1 видеоклип до 1 минуты</li>
+                            <li>✓ 50 отредактированных фотографий</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Премиум</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽30.000</p>
+                        <ul>
+                            <li>✓ До 4 часов съемки</li>
+                            <li>✓ 100 отредактированных фотографий</li>
+                            <li>✓ 3 видеоклипа до 2 минут</li>
+                            <li>✓ Аэрофотосъемка в нескольких локациях</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Видеосъемка</div>
+                <div class="collapsible-content">
+                    <div class="plan">
+                        <h5 class="plan-title">Базовый</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽15.000</p>
+                        <ul>
+                            <li>✓ Краткий видеоролик (до 1 минуты)</li>
+                            <li>✓ Монтаж и обработка</li>
+                            <li>✓ Фоновая музыка по выбору</li>
+                            <li>✓ Высокое разрешение для веб</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Премиум</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽40.000</p>
+                        <ul>
+                            <li>✓ Полная видеосъемка (до 3 часов)</li>
+                            <li>✓ Съемка всего события с высоты</li>
+                            <li>✓ Профессиональная обработка</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Длительность итогового видео - до 5 мин</li>
+                            <li>✓ Высокое разрешение для веб</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Специальные предложения</div>
+                <div class="collapsible-content">
+                    <div class="plan">
+                        <h5 class="plan-title">Съемка свадеб</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽60.000</p>
+                        <ul>
+                            <li>✓ Аэрофотосъемка с места церемонии и банкета</li>
+                            <li>✓ Итоговое видео до 10 мин</li>
+                            <li>✓ Монтаж и обработка</li>
+                            <li>✓ Фоновая музыка по выбору</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Корпоративы</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">от ₽35.000</p>
+                        <ul>
+                            <li>✓ Аэрофотосъемка с более чем одной локацией</li>
+                            <li>✓ Съемка всего события с высоты</li>
+                            <li>✓ Индивидуальный монтаж видео</li>
+                            <li>✓ Профессиональная обработка</li>
+                            <li>✓ Доставка в течение 24 часов</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Дополнительные услуги</div>
+                <div class="collapsible-content">
+                    <div class="plan">
+                        <h5 class="plan-title">Инспекция</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽5.000<span class="object">/oбъект</span></p>
+                        <ul>
+                            <li>✓Аэрофотосъемка промышленных и строительных площадок</li>
+                            <li>✓ Отчет по каждому объекту с комментариями</li>
+                            <p class="sp"><span class="object">*от 5 объектов</span></p>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Экскурсия</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽12.000</p>
+                        <ul>
+                            <li>✓ Часовая экскурсия</li>
+                            <li>✓ Высококачественные фото/видео</li>
+                            <li>✓ Общение и обмен опытом</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Обработка</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">от ₽2.000</p>
+                        <ul>
+                            <li>✓ Специальная обработка фото и видео</li>
+                            <li>✓ Коррекция цвета</li>
+                            <li>✓ Монтаж</li>
+                            <li>✓ Добавление эффектов</li>
+                            <li>✓ Высокое разрешение для веб</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Подписка на услуги</div>
+                <div class="collapsible-content">
+                    <div class="plan">
+                        <h5 class="plan-title">Стандарт</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">₽25.000<span class="object">/мес</span></p>
+                        <ul>
+                            <li>✓ 2 часа съемки в месяц</li>
+                            <li>✓ 30 фото</li>
+                            <li>✓ 1 видеоклип</li>
+                            <li>✓ Профессиональная обработка</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <h5 class="plan-title">Премиум</h5>
+                        <span class="popular">Популярное</span>
+                        <p class="plan-price">от ₽50.000<span class="object">/мес</span></p>
+                        <ul>
+                            <li>✓ 5 часов съемки в месяц</li>
+                            <li>✓ 70 фото</li>
+                            <li>✓ 4 видеоклипа</li>
+                            <li>✓ Профессиональная обработка</li>
+                            <li>✓ Высокое разрешение для печати и веб</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+  <section class="contact" id="contact">
+    <div class="container4">
+      <div class="contact__flex">
+        <div class="contact__flex-item-company">
+          <a href="#header"><img class="header__img contact__img" src="image/logo.svg" alt="logo"></a>
+        </div>
+        <div class="contact__flex-item-grid">
+          <div class="contact__flex-item-grid-i">
+            <div class="contact-grid">
+              <a href="index.html" class="contact__a">Главная</a>
+              <a href="about.html" class="contact__a">О нас</a>
+              <a href="servises.html" class="contact__a">Услуги</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__flex-item-adres">
+          <p class="contact__flex-item-name">Контакты</p>
+          <div class="contact__flex-item-adres-p">
+            <p class="contact__p">Адрес: ул. Лётчиков, д. 27, Москва, РФ</p><br>
+            <a href="tel:+74951234567" class="contact__p">+7 (495) 123-4567</a><br>
+            <a href="mailto:support@airpix.ru" class="contact__p">support@airpix.ru</a>
+          </div>
+        </div>
+        <div class="contact__flex-item-img">
+          <p class="contact__flex-item-name"></p>
+          <a href="#"><img src="image/tg.svg" alt="contact us" class="pril"></a>
+          <a href="#"><img src="image/mail.svg" alt="contact us" class="pril"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p></p>
+    <p class="footer__p">© 2024 AIRPIX</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

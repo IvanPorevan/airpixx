@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&family=PT+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>AIRPIX</title>
+</head>
+
+<body>
+  <ul id="slide-out" class="sidenav">
+    <li><a href="index.html" class="sidenav-close">Главная</a></li>
+    <li><a href="about.html" class="sidenav-close">О нас</a></li>
+    <li><a href="servises.html" class="sidenav-close">Услуги</a></li>
+    <li><a href="#" class="sidenav-close"><img src="image/tg.svg" alt="telegram" class="mob-img"></a></li>
+    <li><a href="#" class="sidenav-close"><img src="image/mail.svg" alt="mail" class="mob-img"></a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a href="#!" class="sidenav-close">Close</a></li>
+  </ul>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5>Услуга</h5>
+      <input type="text" placeholder="видеосъемка">
+    </div>
+    <div class="modal-content">
+      <h5>Дата</h5>
+      <input type="password" name="" id="01">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Заказать</a>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="container">
+      <div class="header__nav">
+        <a href="#"><img src="image/logo.svg" alt="logo" class="header__nav-img"></a>
+        <div class="header__nav-grid">
+          <a href="index.html" class="header__nav-grid-a">Главная</a>
+          <a href="about.html" class="header__nav-grid-a">О нас</a>
+          <a href="servises.html" class="header__nav-grid-a">Услуги</a>
+        </div>
+        <div class="header__nav-icons">
+          <a href="#" ><img src="image/tg.svg" alt="" class="header__nav-grid-2"></a>
+          <a href="#" ><img src="image/mail.svg" alt="" class="header__nav-grid-2"></a>
+        </div>
+        <button class="header__nav-button">
+          <a href="#modal1" class="modal-trigger">
+            <h3 class="header__nav-button-h">Заказать</h3>
+          </a>
+        </button>
+        <a class="header__nav-burger sidenav-trigger" data-target="slide-out">
+          <div class="header__nav-burger-line"></div>
+          <div class="header__nav-burger-line"></div>
+          <div class="header__nav-burger-line-min"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container1">
+        <div class="about__text">
+            <h1 class="about__text-h1">AirPix</h1>
+            <h3 class="about__text-h3">Профессиональная аэрофото- и видеосъемка</h3>
+        </div>
+</section>
+
+<section class="hi" id="hi">
+  <div class="container2">
+      <div class="hi__flex">
+              <div class="hi__flex-item">
+              <p class="hi__grid-item-p">Мы рады поприветствовать вас на нашем сайте!</p><br><br>
+              <p class="hi__grid-item-p1"> AirPix - это лидер в области аэрофотосъемки, предлагающей широкий спектр услуг для самых разных потребностей.</p><br><br>
+              <p class="hi__grid-item-p2">Наши профессиональные пилоты и фотографы используют современные дроны и новейшие технологии, чтобы предоставить вам
+                фотографии и видео высочайшего качества.</p>
+          </div>
+          <div class='hi__img'>
+            <img src="image/1.svg" alt="фото" class="hi-max">
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="slider">
+  <div class="slider1">
+      <ul class="slides">
+        <li>
+          <a href=""><img src="image/g1.svg" class="image"></a>
+          <div class="caption center-align">
+              <h3>Получите незабываемые кадры с высоты птичьего полета</h3>
+          </div>
+      </li>
+          <li>
+              <a href=""><img src="image/svas.jpg" class="image"></a>
+              <div class="caption center-align">
+                  <h3>Используйте наши услуги для свадеб, корпоративных мероприятий, недвижимости и многого другого.</h3>
+              </div>
+          </li>
+          <li>
+              <a href=""><img src="image/33.jpg" class="image"></a>
+              <div class="caption center-align">
+                  <h3>Обратитесь к нам и вы обязательно останетесь довольны!</h3>
+              </div>
+          </li>
+          <li>
+            <a href=""><img src="image/11111111111111.jpg" class="image"></a>
+            <div class="caption center-align">
+                <h3>Больше наших работ в галерее</h3>
+            </div>
+        </li>
+      </ul>
+  </div>
+</section>
+
+<section class="order" id="order">
+  <div class="order1">
+      <h1 class="order__text">Заполните форму, чтобы оформить заказ</h1>
+      <a href=""><button class="order__button"><strong>Заказать</strong></button></a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container4">
+      <div class="contact__flex">
+          <div class="contact__flex-item-company">
+              <a href="#header"><img class="header__img contact__img" src="image/logo.svg" alt="logo"></a>
+          </div>
+          <div class="contact__flex-item-grid">
+              <div class="contact__flex-item-grid-i">
+                  <div class="contact-grid">
+                      <a href="#" class="contact__a">Главная</a>
+                      <a href="#" class="contact__a">О нас</a>
+                      <a href="#" class="contact__a">Услуги</a>
+                  </div>
+              </div>
+          </div>
+          <div class="contact__flex-item-adres">
+              <p class="contact__flex-item-name">Контакты</p>
+              <div class="contact__flex-item-adres-p">
+                  <p class="contact__p">Адрес: ул. Лётчиков, д. 27, Москва, РФ</p><br>
+                  <a href="tel:+74951234567" class="contact__p">+7 (495) 123-4567</a><br>
+                  <a href="mailto:support@airpix.ru" class="contact__p">support@airpix.ru</a>
+              </div>
+          </div>
+          <div class="contact__flex-item-img">
+              <p class="contact__flex-item-name"></p>
+              <a href="#"><img src="image/tg.svg" alt="contact us" class="pril"></a>
+              <a href="#"><img src="image/mail.svg" alt="contact us" class="pril"></a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <p></p>
+  <p class="footer__p">© 2024 AIRPIX</p>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
